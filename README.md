@@ -14,3 +14,24 @@ The EQN function could be found in boolean_EQN.py, which we first find the minte
 
 The output of EQN is shown in output_EQN.txt, which looks like:
 ![alt text](https://github.com/d0zerLin/EC551-Program-1/blob/main/f79bb46fa3054243d0edf70a989d7e5.png?raw=true)
+
+For PLA, we set the input like 
+.i 4
+.o 1
+0000 1
+0001 1
+0010 1
+0011 1
+0100 1
+0101 1
+0110 1
+1000 1
+1001 1
+1010 1
+1011 1
+1100 1
+1101 1
+The EQN function could be found in boolean_EQN.py, which we first find the minterm of the boolean algebra, and using sympy library and Quine-McCluskey method to finish the rest function.
+
+The output of EQN is shown in output_EQN.txt, which looks like:
+![alt text](https://github.com/d0zerLin/EC551-Program-1/blob/main/f79bb46fa3054243d0edf70a989d7e5.png?raw=true)
