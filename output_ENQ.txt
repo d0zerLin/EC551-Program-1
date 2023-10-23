@@ -1,0 +1,54 @@
+SOP: (~A & ~B & ~C & ~D) | (A & ~B & ~C & ~D) | (~A & B & ~C & ~D) | (A & B & ~C & ~D) | (~A & ~B & C & ~D) | (A & ~B & C & ~D) | (~A & B & C & ~D) | (~A & ~B & ~C & D) | (A & ~B & ~C & D) | (~A & B & ~C & D) | (A & B & ~C & D) | (~A & ~B & C & D) | (A & ~B & C & D)
+POS: (~A | ~B | ~C | D) & (A | ~B | ~C | ~D) & (~A | ~B | ~C | ~D)
+Inverse SOP: (A & B & C & ~D) | (~A & B & C & D) | (A & B & C & D)
+Inverse POS: (A | B | C | D) & (~A | B | C | D) & (A | ~B | C | D) & (~A | ~B | C | D) & (A | B | ~C | D) & (~A | B | ~C | D) & (A | ~B | ~C | D) & (A | B | C | ~D) & (~A | B | C | ~D) & (A | ~B | C | ~D) & (~A | ~B | C | ~D) & (A | B | ~C | ~D) & (~A | B | ~C | ~D)
+Minimized SOP: ~B | ~C | (~A & ~D)
+Saved literals (vs canonical SOP): 0
+Minimized POS: (~A | ~B | ~C) & (~B | ~C | ~D)
+Saved literals (vs canonical POS): 0
+Prime Implicants: A'D', B', C'
+Number of Prime Implicants: 3
+Essential Prime Implicants: A'D', B', C'
+Number of Essential Prime Implicants: 3
+ON-Set minterms: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13]
+Number of ON-Set minterms: 13
+ON-Set minterms: [7, 14, 15]
+Number of ON-Set minterms: 3
+
+
+SOP: (~a & ~b & ~c & ~d) | (a & ~b & ~c & ~d) | (a & ~b & c & ~d) | (a & ~b & ~c & d) | (a & ~b & c & d) | (~a & b & c & d) | (a & b & c & d)
+POS: (a | ~b | c | d) & (~a | ~b | c | d) & (a | b | ~c | d) & (a | ~b | ~c | d) & (~a | ~b | ~c | d) & (a | b | c | ~d) & (a | ~b | c | ~d) & (~a | ~b | c | ~d) & (a | b | ~c | ~d)
+Inverse SOP: (~a & b & ~c & ~d) | (a & b & ~c & ~d) | (~a & ~b & c & ~d) | (~a & b & c & ~d) | (a & b & c & ~d) | (~a & ~b & ~c & d) | (~a & b & ~c & d) | (a & b & ~c & d) | (~a & ~b & c & d)
+Inverse POS: (a | b | c | d) & (~a | b | c | d) & (~a | b | ~c | d) & (~a | b | c | ~d) & (~a | b | ~c | ~d) & (a | ~b | ~c | ~d) & (~a | ~b | ~c | ~d)
+Minimized SOP: (d & ~c) | (a & b & c) | (~a & ~b & ~c)
+Saved literals (vs canonical SOP): 0
+Minimized POS: (a | ~c) & (b | ~c) & (c | d | ~a) & (c | d | ~b)
+Saved literals (vs canonical POS): 0
+Prime Implicants: A'B'C', ABD, ABC, C'D
+Number of Prime Implicants: 4
+Essential Prime Implicants: A'B'C', ABC, C'D
+Number of Essential Prime Implicants: 3
+ON-Set minterms: [0, 1, 5, 9, 13, 14, 15]
+Number of ON-Set minterms: 7
+ON-Set minterms: [2, 3, 4, 6, 7, 8, 10, 11, 12]
+Number of ON-Set minterms: 9
+
+
+SOP: (~a & b) | (a & b)
+POS: (a | b) & (~a | b)
+Inverse SOP: (~a & ~b) | (a & ~b)
+Inverse POS: (a | ~b) & (~a | ~b)
+Minimized SOP: a
+Saved literals (vs canonical SOP): 1
+Minimized POS: a
+Saved literals (vs canonical POS): 1
+Prime Implicants: A
+Number of Prime Implicants: 1
+Essential Prime Implicants: A
+Number of Essential Prime Implicants: 1
+ON-Set minterms: [2, 3]
+Number of ON-Set minterms: 2
+ON-Set minterms: [0, 1]
+Number of ON-Set minterms: 2
+
+
